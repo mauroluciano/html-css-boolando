@@ -25,6 +25,11 @@ header {
     justify-content: space-around;
 }
 
+.wrap {
+    flex: wrap;
+}
+
+
 
 /* header */
 
@@ -61,3 +66,13 @@ ul a:hover {
 
 /* main */
 
+.card {
+    height: 500px;
+    width: 32%;
+    margin-bottom: 20px;
+    text-align: left;
+    margin: 0 10px 30px 0;
+    background-color: #0f0e17;
+    color: white;
+    display: flex;
+}

@@ -1,4 +1,4 @@
-/* Generics */
+
 
 *{
     box-sizing: border-box;
@@ -6,13 +6,58 @@
     padding: 0;
 }
 
+.flex {
+    display: flex;
+}
+
 .container{
     width: 1180px;
-    margin: 0 auto;
-    align-items: center;
+    margin: auto auto;
 }
 
 header {
-    background-color:  #ff6900;
-    height: 80px;
+    background-color: #ff6900;
+    min-height: 60px;
+    justify-content: center;
 }
+
+.around{
+    justify-content: space-around;
+}
+
+
+/* header */
+
+.img-header {
+    height: 20px;
+    width: 10%;
+}
+
+.logos {
+    height: 20px;
+}
+
+.logos img {
+    margin-right: 10px;
+}
+
+ul {
+    list-style: none;
+    width: 20%;
+    justify-content: center;
+}
+
+ul a {
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    font-weight: bold;
+}
+
+ul a:hover {
+    text-decoration: underline;
+}
+
+
+/* main */
+

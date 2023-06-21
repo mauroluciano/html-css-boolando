@@ -8,5 +8,11 @@
 
 .container{
     width: 1180px;
+    margin: 0 auto;
+    align-items: center;
 }
 
+header {
+    background-color:  #ff6900;
+    height: 80px;
+}
